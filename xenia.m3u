@@ -1,13 +1,31 @@
-#EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-id="G4TV" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGA_ffZ7TTrD9kIE9J8RMGdRVXe4legqIvA&s", G4TV
-https://api.m3use.projectmoose.xyz/m3u/Foreverhellion/Retro/687c999730e19d8a035e8372.m3u8?uid=Foreverhellion&pkey=DuCxHx8W
 #EXTINF:-1 tvg-id="Toonami",Toonami Aftermath tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/6f7efcdd03d80c9117b317647a274fa26f56d00e/countries/united-states/toonami-us.png", Toonami Aftermath 
 http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+
 #EXTINF:-1 tvg-id="Toonami +4",Toonami Aftermath +4 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/6f7efcdd03d80c9117b317647a274fa26f56d00e/countries/united-states/toonami-us.png", Toonami Aftermath +4
 http://api.toonamiaftermath.com:3000/pst/playlist.m3u8
+
 #EXTINF:-1 tvg-id="Toonami Movies" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/6f7efcdd03d80c9117b317647a274fa26f56d00e/countries/united-states/toonami-us.png", Toonami Aftermath Movies
 http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
+
+#EXTINF:0, tvg-name="Toonami Aftermath Radio" tvg-logo="https://raw.githubusercontent.com/kbmystery7/TAM3U8/main/ta%20wall%20thumb%20radio.jpg" group-title="Toonami Aftermath",Toonami Aftermath Radio
+http://api.toonamiaftermath.com:3000/radio/playlist.m3u8?useHttps=true
+ 
+#EXTINF:-1 tvg-id="G4TV" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGA_ffZ7TTrD9kIE9J8RMGdRVXe4legqIvA&s", G4TV
+https://api.m3use.projectmoose.xyz/m3u/Foreverhellion/Retro/687c999730e19d8a035e8372.m3u8?uid=Foreverhellion&pkey=DuCxHx8W
+ 
 #EXTINF:-1 tvg-id="Swim Rewind", tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/6f7efcdd03d80c9117b317647a274fa26f56d00e/countries/australia/adult-swim-au.png", Adult Swim Rewind
 http://swimrewind.com/hls/stream.m3u8
+
 #EXTINF:-1 tvg-id="RetroBlast" tvg-name="RetroBlast" group-title="Live" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/retro-logo-png-transparent.png", Retro Blast TV
 http://Retroblast.tv/hls/stream.m3u8
+ 
+#EXTINF:0, tvg-logo="" group-title="Snickelodeon",Snickelodeon East EST
+http://api.toonamiaftermath.com:3000/snick-est/playlist.m3u8?useHttps=true
+
+
+#EXTINF:0, tvg-logo="" group-title="Snickelodeon",Snickelodeon West PST
+http://api.toonamiaftermath.com:3000/snick-pst/playlist.m3u8?useHttps=true
+
+
+#EXTINF:0, tvg-logo="" group-title="MTV 97",MTV 97
+http://api.toonamiaftermath.com:3000/mtv97/playlist.m3u8?useHttps=true
