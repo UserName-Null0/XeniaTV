@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGA_ffZ7TTrD9kIE9J8RMGdRVXe4legqIvA&s", G4TV
+#EXTINF:-1 tvg-id="G4TV" group-title="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGA_ffZ7TTrD9kIE9J8RMGdRVXe4legqIvA&s", G4TV
 https://api.m3use.projectmoose.xyz/m3u/Foreverhellion/Retro/687c999730e19d8a035e8372.m3u8?uid=Foreverhellion&pkey=DuCxHx8W
 #EXTINF:-1 tvg-id="Toonami",Toonami Aftermath tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/6f7efcdd03d80c9117b317647a274fa26f56d00e/countries/united-states/toonami-us.png", Toonami Aftermath 
 http://api.toonamiaftermath.com:3000/est/playlist.m3u8
